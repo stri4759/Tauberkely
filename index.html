@@ -54,15 +54,136 @@
 						<!-- Featured Post -->
 							<article class="post featured">
 								<header class="major">
-									<span class="date"><img style="height: auto; width: 200px;" src="images/Greek_lc_tau.svg.png" alt="" /></span>
-									
-									<iframe style="width: 100%; height: 600px; max-height: 90vh; border-style: solid; border-width: 2px; border-color: #888" allowFullScreen="true" src="https://www.jigsawexplorer.com/online-jigsaw-puzzle-player.html?frm=1&url=aHR0cHM6Ly9pbWFnZXMucGV4ZWxzLmNvbS9waG90b3MvMjY2MjExNi9wZXhlbHMtcGhvdG8tMjY2MjExNi5qcGVnP2NzPXNyZ2ImZGw9cGV4ZWxzLWphaW1lLXJlaW1lci0yNjYyMTE2LmpwZyZmbT1qcGc~&nop=20" title="Jigsaw Puzzle">Jigsaw Puzzle</iframe>
+									<span class="date"><img style="height: auto; width: 200px;" src="html5up-massively/images/Greek_lc_tau.svg.png" alt="" /></span>
+									<a style="font-size: 40px;">Memory Games</a>
+									<br>
+									<br>
+		
+								<iframe style="width: 100%; height: 600px; max-height: 90vh; border-style: solid; border-width: 2px; border-color: #888"  src="https://www.jigsawexplorer.com/online-jigsaw-puzzle-player.html?frm=1&url=aHR0cHM6Ly9pbWFnZXMucGV4ZWxzLmNvbS9waG90b3MvMjY2MjExNi9wZXhlbHMtcGhvdG8tMjY2MjExNi5qcGVnP2NzPXNyZ2ImZGw9cGV4ZWxzLWphaW1lLXJlaW1lci0yNjYyMTE2LmpwZyZmbT1qcGc~&nop=20" title="Jigsaw Puzzle">Jigsaw Puzzle</iframe><a style="font-size: 40px;">Sudoku</a>
+								<br>
+<br>
+
+<iframe frameborder="0" scrolling="no" src="https://mczak.com/code/sudoku/suframe/" style="border:0px solid #eee; overflow:hidden; width:1000px; height:600px;" width="400"></iframe>
+
 								<ul class="actions special">
 									
 								</ul>
 								
-									<br>
-									<a href="#" class="button large">Our Theory</a></li>
+	
+									
+									<div class="accordion">
+										<!-- span to target fix closing accordion -->
+										<span class="target-fix" id="accordion"></span>
+										 
+										<!-- First Accoridon Option -->
+										<div>
+											<!-- span to target fix accordion -->
+											<span class="target-fix" id="accordion1"></span>
+											
+											<!-- Link to open accordion, hidden when open --> 
+											<a href="#accordion1" href="#" class="button large" id="open-accordion1" title="open">Our Theory</a>
+											
+											<!-- Link to close accordion, hidden when closed -->
+											<a href="#accordion" href="#" class="button large" id="close-accordion1" title="close">Our Theory</a> 
+											
+											<!-- Accorion content goes in this div -->
+											<div class="accordion-content">
+												<p>Puzzles are a great way to provide cognitive stimulation, enhance memory and focus abilities, and help improve problem solving skills. There have been studies showing that for some “participation in cognitive activities pertinent to game playing may help prevent Alzeihemers Disease (AD) by preserving brain structures and cognitive functions vulnerable to AD pathophysiology.”</p>
+											</div>
+										</div>
+									<style>
+									.readme {
+										color: #fff;
+										margin: 0 auto;
+										
+										
+										a {
+										  color: #00a486;
+										}
+									  }
+									  
+									  /*_________________  Accordion
+									  ________________________________________*/
+									  .accordion {
+										position: relative;
+										margin: 60px auto;
+										width: 80%;
+									  }
+									  
+									  [id*="open-accordion"], [id*="close-accordion"] {
+										
+										display: block;
+										margin: 0 auto;
+										position: relative;
+										
+									  }
+									  
+									  [id*="close-accordion"] {
+										display: none;
+									  }
+									  
+									  .accordion a {
+										color: #fff;
+										font-size: 1.25em;
+										font-weight: normal;
+										padding-left: 2%;
+										text-decoration: none;
+										text-shadow: none;
+									  }
+									  
+									  [id*="open-accordion"]:after, [id*="close-accordion"]:after {
+										content: "";
+										border-left: 10px solid transparent;
+										border-right: 10px solid transparent;
+										border-top: 10px solid rgba(255, 255, 255, 0.6);
+										position: absolute;
+										right: 5px;
+										top: 15px;
+										z-index: 999;
+										transform: rotate(-90deg);
+										-webkit-transform: rotate(-90deg);
+									  }
+									  
+									  .target-fix {
+										display: block;
+										top: 0;
+										left: 0;
+										position: fixed;
+									  }
+									  
+									  .accordion-content {
+										background: #fff;
+										height: 0;
+										margin: -1px auto 0;
+										padding: 0 2.5%;
+										position: relative;
+										overflow: hidden;
+										width: 90%;
+										transition: all 0.1s ease;
+										-webkit-transition: all 0.1s ease;
+										-moz-transition: all 0.1s ease;
+									  }
+									  
+									  .accordion span:target ~ .accordion-content {
+										display: block;
+										height: auto;
+										padding-bottom: 25px;
+										padding-top: 10px;
+									  }
+									  
+									  .accordion span:target ~ [id*="close-accordion"] {
+										display: block;
+									  }
+									  
+									  .accordion span:target ~ [id*="open-accordion"] {
+										display: none;
+									  }
+									  
+									  .accordion span:target ~ [id*="close-accordion"]:after {
+										border-top: 10px solid #333;
+										transform: rotate(0deg);
+										-webkit-transform: rotate(0deg);
+									  }</style>
 							</article>
 
 						
